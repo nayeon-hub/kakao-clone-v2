@@ -14,34 +14,36 @@
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__Clock">13:54</span>
+    <div class="header__fixed">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__Clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-coloumn">
+          <h1 class="header__title">Friends</h1>
+        </div>
+        <div class="header__header-coloumn">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog fa"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-coloumn">
-        <h1 class="header__title">Friends</h1>
-      </div>
-      <div class="header__header-coloumn">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog fa"></i>
-        </span>
-      </div>
-    </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -59,7 +61,7 @@
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="friend__avatar" />
+            <img src="images/plusfriends.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -69,25 +71,123 @@
         </div>
       </div>
       <ul class="friends__list">
-        <h5 class="friends_title">Friends 14</h5>
-        <li class="friends__friend friend friend--lg">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avengers.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Avengers
+              </span>
+              <span class="friend__status">
+                avengers assemble!!
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                The Avengers (영화'어벤져스')
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/strange.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Doctor Strange
+              </span>
+              <span class="friend__status">
+                Dormammu!!!
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/kakaofriend.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Loki
+              </span>
+              <span class="friend__status">
+                @_@
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/thor.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Thor
+              </span>
+              <span class="friend__status">
+                beer
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                화려하지 않은 고백-규현(KYUHYUN)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/tomholland.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Tom Holland
+              </span>
+              <span class="friend__status">
+                Tomarrow
+              </span>
+            </div>
+          </div>
+        </li>
+
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/ironman.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Tony Stark
+              </span>
+              <span class="friend__status">
+                Iron Man
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                애상-10CM
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Na Yeon
+                NaYeon
               </span>
               <span class="friend__status">
                 studying
               </span>
             </div>
           </div>
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>화려하지 않은 고백-규현(KYUHYUN)</span>
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
+          <div class="friend__column"></div>
         </li>
       </ul>
     </main>
@@ -115,5 +215,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
