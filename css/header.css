@@ -2,8 +2,9 @@
   position: fixed;
   z-index: 2;
   top: 0px;
-  width: 93%;
+  width: 100%;
   background-color: white;
+  padding-right: 40px;
 }
 
 .header {
